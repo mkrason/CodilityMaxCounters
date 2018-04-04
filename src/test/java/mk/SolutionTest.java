@@ -26,18 +26,18 @@ class SolutionTest {
         assertTrue(Arrays.equals(result, b));
     }
 
-//    @Test
-//    void testLowerTape2() {
-//        int[] a = {3, 1};
-//        int result = solution.solution(a);
-//        assertTrue(2 == result);
-//    }
-//
-//    @Test
-//    void testLowerTape3() {
-//        int[] a = {-5, 1, 7, 4};
-//        int result = solution.solution(a);
-//        assertTrue(1 == result);
-//    }
+    @Test
+    void testLowerTape2() {
+        int[] a = {3, 1};
+        int result = solution.solution(a);
+        assertTrue(2 == result);
+    }
+
+    @Test
+    void testLowerTape3() {
+        int[] a = {-5, 1, 7, 4};
+        int result = solution.solution(a);
+        assertTrue(1 == result);
+    }
 
 }
