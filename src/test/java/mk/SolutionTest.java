@@ -33,11 +33,11 @@ class SolutionTest {
 //        assertTrue(2 == result);
 //    }
 //
-//    @Test
-//    void testLowerTape3() {
-//        int[] a = {-5, 1, 7, 4};
-//        int result = solution.solution(a);
-//        assertTrue(1 == result);
-//    }
+   @Test
+   void testLowerTape3() {
+       int[] a = {-5, 1, 7, 4};
+       int result = solution.solution(a);
+       assertTrue(1 == result);
+   }
 
 }
